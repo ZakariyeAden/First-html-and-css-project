@@ -1,0 +1,48 @@
+/* Media Qureies */
+
+
+/* Large 1200px */
+/* 1200/16 = 75 */
+@media all and ( max-width:64em ){
+  html{
+    font-size: 49%;
+    
+}
+
+}
+
+/* Tablets 768x */
+/* 768/16 = 48 */
+@media all and ( max-width:48em ){
+  html{
+    font-size: 40%;
+  }
+  .hero-description{
+    margin-bottom: 2.8rem;
+  }
+  .address-section{
+    padding-left: 2rem;
+  }
+}
+ /* Mobile 25x */
+/* 425/16 = 27 */
+@media all and ( max-width:27em ){
+  html{
+    font-size: 30%;
+  }
+ 
+  .hero{
+    grid-template-columns: 1fr;
+    gap: 4.6rem;
+  }
+  .grid-2cols{
+    grid-template-columns: 1fr;
+  }
+  /* Wasnt able to figure out the order  */
+ /* .main-left{
+   order: 1;
+ } */
+ .grid-4cols{
+   grid-template-columns: 1.5fr 1fr 1fr ;
+ }
+}
